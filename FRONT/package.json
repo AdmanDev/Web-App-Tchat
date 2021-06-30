@@ -1,0 +1,53 @@
+{
+  "name": "tchat",
+  "version": "0.1.0",
+  "author": "Admandev",
+  "license": "MIT",
+  "description": "Tchat is a web application allows to chat, send textual message, image and file to your friends.",
+  "homepage": "https://app.admandev.fr/tchat/",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "emoji-picker-react": "^3.4.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.2.0",
+    "react-login-github": "^1.0.7",
+    "react-scripts": "4.0.3",
+    "socket.io-client": "^4.1.2",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-app-env --env-file=env/development.env start",
+    "build": "react-app-env --env-file=env/production.env build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2",
+    "react-app-env": "^1.2.3"
+  }
+}

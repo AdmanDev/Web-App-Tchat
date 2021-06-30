@@ -1,0 +1,4 @@
+SERVER_URL=[Backend server url]
+GOOGLE_LOGIN_CLIENT_API_KEY=[Google crendential client key]
+FACABOOK_LOGIN_CLIENT_API_KEY=[Facebook client key]
+GITHUB_LOGIN_CLIENT_API_KEY=[Github client key]

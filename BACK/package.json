@@ -1,0 +1,22 @@
+{
+  "name": "tchatserver",
+  "version": "1.0.0",
+  "description": "Tchat backend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "env-cmd -f ./env/.env nodemon node server.js",
+    "start:prod": "nodemon -x \"node server.js || touch server.js\""
+  },
+  "author": "Admandev",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "env-cmd": "^10.1.0",
+    "google-auth-library": "^7.1.0",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^7.0.1"
+  }
+}

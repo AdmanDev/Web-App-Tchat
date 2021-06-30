@@ -1,0 +1,18 @@
+#menu_container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary);
+    width: 100%;
+}
+
+#menu_right {
+    display: flex;
+    flex: 100%;
+    flex-direction: row-reverse
+}
+
+#menu_icon {
+    height: 50px;
+    align-self: center;
+    margin: auto 10px;
+}

@@ -1,0 +1,30 @@
+#login_container {
+    background-color: var(--primary);
+    border-radius: 10px;
+    border-radius: 20px;
+}
+
+#login_container > p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login_methods_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_github_btn {
+    background-color: #444444;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+}

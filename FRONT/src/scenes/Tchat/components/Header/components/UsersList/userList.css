@@ -1,0 +1,47 @@
+#userList_container {
+    position: absolute;
+    background-color: var(--secondary);
+    border: 1px solid var(--text);
+    border-radius: 3px;
+    width: max-content;
+    max-height: 500px;
+    right: 2px;
+    top: 100%;
+    padding: 5px 0px;
+    color: var(--text);
+    overflow: auto;
+}
+
+#userList_container > p {
+    margin: 10px;
+    font-weight: bold;
+}
+
+#userList_container > hr {
+    margin: 5px;
+}
+
+.userList_item {
+    background-color: rgba(255, 255, 255, 0.199);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 1px 0;
+}
+
+.userList_item:hover {
+    background-color: rgba(255, 255, 255, 0.377);
+    cursor: pointer;
+}
+
+.userList_item > img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.userList_item > p {
+    flex: 100%;
+    text-align: center;
+    font-weight: bold;
+}

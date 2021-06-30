@@ -1,0 +1,6 @@
+IP=[ip address to the backend server]
+ADDRESS=[Url to the backend server]
+PORT=[port]
+GOOGLE_LOGIN_CLIENT_API_KEY=[Google crendential client key]
+GITHUB_LOGIN_CLIENT_API_KEY=[Github client key]
+GITHUB_LOGIN_SECRET_KEY=[Github secret key]

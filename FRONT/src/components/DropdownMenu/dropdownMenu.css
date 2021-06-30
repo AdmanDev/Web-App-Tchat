@@ -1,0 +1,50 @@
+.dpm_container {
+    position: relative;
+    background-color: var(--primary);
+    width: fit-content;
+}
+
+.dpm_toggle {
+    background-color: var(--secondary);
+    padding: 10px 25px;
+    color: var(--text);
+    font-weight: 400;
+}
+
+.dpm_toggle:hover {
+    cursor: default;
+}
+
+.dpm_menu_item_container {
+    width: 100%;
+    position: absolute;
+}
+
+.dpm_menu_item_container > div {
+    background-color: var(--tertiary);
+    margin: 1px 0;
+    padding: 10px 10px;
+    color: var(--text);
+    text-align: center;
+}
+
+.dpm_menu_item_container > div:hover {
+    background-color: var(--hover);
+    cursor: default;
+}
+
+.dpm_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dpm_item > p {
+    margin-left: 15px;
+}
+
+.dpm_item_icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}

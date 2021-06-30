@@ -1,0 +1,40 @@
+#footer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+    width: inherit;
+    border-top: 1px solid white;
+}
+
+.footer_btn_action {
+    color: var(--tertiary);
+    border-radius: 50%;
+    transition: background-color 1s, color 1s;
+}
+
+.footer_btn_action:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: black;
+}
+
+.footer_emoji_container {
+    position: relative;
+}
+
+.footer_file_container {
+    background-color: var(--secondary);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+    margin-bottom: -8px;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: white;
+}
+
+.emoji-group[data-display-name="Recently Used"]{
+    display: none!important;
+}

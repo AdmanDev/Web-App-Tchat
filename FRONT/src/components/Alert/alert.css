@@ -1,0 +1,29 @@
+.alert_container {
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary);
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: 1px solid var(--text);
+    border-radius: 5px;
+    color: var(--text);
+    font-weight: bold;
+    transition: opacity 1s, visibility 1s;
+}
+
+.alert_container > p {
+    margin-left: 5px;
+}
+
+.alert_visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.alert_hidden {
+    visibility: hidden;
+    opacity: 0;
+}

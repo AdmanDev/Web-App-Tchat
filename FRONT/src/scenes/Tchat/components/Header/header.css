@@ -1,0 +1,37 @@
+#header_container {
+    background-color: var(--secondary);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+#tchat_title {
+    color: var(--text);
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#header_right_container {
+    position: absolute;
+    right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#header_right_container > * {
+    flex: 1 1 auto;
+    width: 50px;
+}
+
+@media screen and (max-width: 445px) {
+    #tchat_title {
+        display: block;
+        width: 6ch;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

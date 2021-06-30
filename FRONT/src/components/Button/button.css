@@ -1,0 +1,18 @@
+.btn_container {
+    background-color: var(--tertiary);
+    border-radius: 20px;
+    margin: 10px 15px;
+    padding: 10px;
+}
+
+.btn_container > p {
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.btn_container:hover {
+    background-color: var(--hover);
+    cursor: default;
+}
